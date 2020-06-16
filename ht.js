@@ -18,7 +18,7 @@ var lightPos = [new THREE.Vector3(0, 50, 20), new THREE.Vector3(0, 15, -20), new
 var end = false, keysQueue = [];
 
 var snake = [], apple;
-var cube = new THREE.BoxGeometry(1, 1, 1);
+var cube = new THREE.SphereGeometry(1, 32, 32);
 var gameCube = new THREE.BoxGeometry(cubeSize, cubeSize, cubeSize);
 var direction = new THREE.Vector3(1, 0, 0);
 
