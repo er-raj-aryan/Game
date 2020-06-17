@@ -172,8 +172,9 @@ function render() {
         else if (head.mesh.position.z > halfCubeSize) {
             head.mesh.position.z = -halfCubeSize + 0.5;
         }
+      
 
-        tetha = 0;
+        tetha = score;
     }
 
     renderer.render(scene, camera);
